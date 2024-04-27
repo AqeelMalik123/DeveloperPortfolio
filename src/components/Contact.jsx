@@ -8,6 +8,9 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  // template_way2r2j
+  // service_fthurxc
+  // 7dgneBSGtuqs3nvsV
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -33,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_fthurxc",
+        "template_way2r2j",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "AqeelMalik",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "aqeelmalik3897450@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "7dgneBSGtuqs3nvsV"
       )
       .then(
         () => {
