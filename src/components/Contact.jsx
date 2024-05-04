@@ -17,7 +17,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
-console.log(form,"form")
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
