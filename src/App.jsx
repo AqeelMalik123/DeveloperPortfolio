@@ -5,8 +5,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
     <BrowserRouter>
-    <div style={{display:"flex",width:"100%"}}>
-      <div style={{width:"100%",border:"3px solid white"}} className=' z-0 bg-primary w-full !important'>
+      <div style={{width:"100%",border:"3px solid white"}} className='relative z-0 bg-primary w-full !important'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
@@ -20,7 +19,6 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-      </div>
       </div>
     </BrowserRouter>
   );
